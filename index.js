@@ -7,7 +7,6 @@ function getFirstSelector(selector){
 }
 
  function deepestChild(){ 
-   ('boo' 4 divs deep)
   return document.querySelector('#grand-node div div div div');
 }
 
