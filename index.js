@@ -6,7 +6,8 @@ function getFirstSelector(selector){
  return document.querySelector('#nested .target');
 }
 
- function deepestChild(){ ('boo' 4 divs deep)
+ function deepestChild(){ 
+   ('boo' 4 divs deep)
   return document.querySelector('#grand-node div div div div');
 }
 
