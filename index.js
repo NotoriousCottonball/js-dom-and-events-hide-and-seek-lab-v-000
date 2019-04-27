@@ -14,7 +14,6 @@ function getFirstSelector(selector){
         node = nextNode;
         nextNode = node.children[0];
     }
-
      return node;
 }
 
