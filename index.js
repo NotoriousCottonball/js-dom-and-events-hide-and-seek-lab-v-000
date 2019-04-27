@@ -24,7 +24,7 @@ function getFirstSelector(selector){
         let children = rankedLists[i].children
 
          for (let i = 0, k = children.length; j < k; j++) {
-            children[j].innerHTML = parseInt(children[j].innerHTML) + n;
+            children[i].innerHTML = parseInt(children[j].innerHTML) + n;
         }
     }
 }
